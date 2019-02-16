@@ -1,0 +1,22 @@
+Create database thepirateshop;
+show databases;
+use thepirateshop
+
+show tables;
+
+insert into product values(100,"Star Wars Episode IV DVD",20.00,"Star War Disk IV", "DVD" , "DVD" , "Star wars");
+insert into product values(101,"Star Wars Episode V DVD",20.00,"Star War Disk V", "DVD" , "DVD" , "Star wars");
+insert into product values(102,"Star Wars Episode VI DVD",20.00,"Star War Disk VI", "DVD" , "DVD" , "Star wars");
+insert into product values(103,"Star Wars Episode IV Blue Ray",25.00,"Star War Blue ray IV", "Blue Ray" , "Blue Ray" , "Star wars");
+insert into product values(104,"Star Wars Episode V Blue Ray",25.00,"Star War Blue Ray V", "Blue Ray" , "Blue Ray" , "Star wars");
+insert into product values(105,"Star Wars Episode VI Blue Ray",25.00,"Star War Blue Ray VI", "Blue Ray" , "Blue Ray" , "Star wars");
+
+select * from product;
+
+select * from Category;
+select * from user;
+insert into Category values(1,"DVD");
+insert into Category values(2,"Blue-Ray");
+
+
+insert into user values(1,"harsh", "verma", "harshverma14oct@gmail.com" , "2145162162" , 1);

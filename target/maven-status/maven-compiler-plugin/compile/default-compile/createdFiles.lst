@@ -1,0 +1,10 @@
+com/db_design/service/CustomerService.class
+com/db_design/model/Category.class
+com/db_design/util/DBConnection.class
+com/db_design/model/User.class
+com/db_design/cart/ShoppingCart.class
+com/db_design/controller/DispatcherServlet.class
+com/db_design/model/Manufacturer.class
+com/db_design/cart/ShoppingCartItem.class
+com/db_design/service/ProductService.class
+com/db_design/model/Product.class
